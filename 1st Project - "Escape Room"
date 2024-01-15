@@ -1,0 +1,60 @@
+print('''
+===============
+==E S C A P E==
+====R O O M====
+===============''')
+
+print("Solve the riddle to escape!")
+
+while True:
+    Enter = input('Type start to begin: ')
+    if Enter == "start":
+        print("Let's start with a simple one")
+        break
+    else:
+        continue
+while True:
+        Answer = input('What is full of holes but still holds water? ')
+        if Answer == "sponge":
+            print('Great! Let\'s move on to next.')
+            break
+        else:
+            print("ehhh not quite")
+            print("Do you want a hint y/n?")
+            hint1 = input()
+            if hint1 == 'y':
+                print('You use it when washing dishes')
+            else:
+                continue
+while True:
+    Answer2 = input('The more of this there is, the less you see. What is it? ')
+    if Answer2 == 'darkness':
+        print("Well done genius, let\' see if you can get this too.")
+        break
+    else:
+        print("ehhh not quite")
+        print("Do you want a hint y/n?")
+        hint1 = input()
+        if hint1 == 'y':
+            print('What you see at night')
+        else:
+            continue
+while True:
+    Answer3 = input('If you’ve got me, you want to share me; if you share me, you haven’t kept me. What am I? ')
+    if Answer3 == "secret":
+        print("Congratulation, you are free to go.")
+        break
+    else:
+        print("ehhh not quite")
+        print("Do you want a hint y/n?")
+        hint1 = input()
+        if hint1 == 'y':
+            print('A precious thing that we have, but it\'s owner is someone else.')
+        else:
+            continue
+
+
+
+
+
+
